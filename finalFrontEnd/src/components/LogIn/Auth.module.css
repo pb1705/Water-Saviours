@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.cover {
+  width: 430px;
+  background-color: #fff;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+.type {
+  width: 100%;
+  background-color: #f9fbfb;
+  padding: 4% 5%;
+  color: #0e141e;
+  display: inline-block;
+  text-align: center;
+  padding: 10% 0%;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+}
+.active {
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  clip-path: inset(-10px -10px 1px -10px);
+  border: 0px;
+}
+.cover a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+.section {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.authTypeControls {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.form {
+  /* margin:30px 0px; */
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  outline-offset: -5px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  clip-path: inset(0px -10px -10px -10px);
+}
+.form form {
+  text-align: center;
+}
+.form input {
+  width: 320px;
+  padding: 15px;
+  font-size: 1.1rem;
+  margin: 5px;
+  border: solid 1px #c9c9cf;
+}
+.form input:focus {
+  border: solid 1px #0a0a0b;
+}
+.forgotpassword {
+  margin-top: 7px;
+  text-align: right;
+}
+.forgotpassword a {
+  cursor: pointer;
+}
+.action {
+  margin-top: 20px;
+  text-align: right;
+
+}
+.action button {
+  cursor: pointer;
+  font-size: 1.15rem;
+  padding: 10px 20px;
+  background-color: transparent;
+
+  color: #0a0a0b;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  border:1px solid #0a0a0b;
+  font-weight: 500;
+}
+.action button:hover {
+  background-color: #0a0a0b;
+  color: #FFF;
+}
+.seprator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b7c9cc;
+}
+.seprator::before{
+  content: "";
+  width:25%;
+  background-color:  #b7c9cc ;
+  margin-right: 10px;
+  height: 1px;
+  display: inline-block;
+  position: relative;
+  top:2.5px;
+}
+.seprator::after{
+  content: "";
+  width:25%;
+  background-color:  #b7c9cc ;
+  margin-left: 10px;
+  height: 1px;
+  display: inline-block;
+  position: relative;
+  top:2.5px;
+}
+.social{
+  display: flex;
+  justify-content: space-between;
+}
+.social img{
+    height: 50px;
+    width: 50px;
+}
+.social a{
+  cursor: pointer;
+}
+

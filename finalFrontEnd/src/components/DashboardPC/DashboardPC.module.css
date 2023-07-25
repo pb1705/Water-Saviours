@@ -1,0 +1,50 @@
+.thumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.thumb {
+    height: 200px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+
+.report button {
+    width: 350px;
+    margin-left: 100px;
+    height: 100px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    border-color: floralwhite;
+    background-color: rgb(223, 72, 72);
+    /*rgb(227, 234, 180);*/
+}
+
+.report {
+    display: flex;
+    flex-direction: column;
+}
+
+.bck2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 38px;
+    font-size: 20px;
+    background-color: rgb(244, 242, 241);
+    width: 180px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbCont {
+    display: flex;
+    flex-direction: column;
+}

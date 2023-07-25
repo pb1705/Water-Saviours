@@ -1,0 +1,63 @@
+.table {
+  border-collapse: collapse;
+  width: 90%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  overflow: scroll;
+  margin:20px auto;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table td {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover td {
+  background-color: #ddd;
+}
+
+.table button {
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:disabled{
+    background-color: gray;
+}
+.table button.raise-button:hover {
+  background-color: red;
+}
+
+.table td:hover {
+  background-color: #f9f9f9;
+}
+
+td:hover button {
+  background-color: #45a049;
+}
+
+tr:hover .value {
+  color: #ff6347;
+}

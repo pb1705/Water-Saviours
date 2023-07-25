@@ -1,0 +1,79 @@
+#heading0{
+    width:100%;
+    padding:0 auto;
+    margin:auto;
+    background-color: rgb(77, 237, 77);
+}
+#inheading0{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    color:black;
+    font-size: 35px;
+}
+.outer0{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.label0{
+    font-size: 27px;
+    color:rgb(147, 37, 37);
+    margin-bottom: 13px;
+    
+}
+.outselection0{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.selection0{
+    width:50%;
+    color:black;
+    border:5px solid grey;
+}
+.form0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap:17px;
+}
+button{
+    font-size: 24px;
+    width:fit-content;
+    background-color: rgb(56, 220, 56);
+    color:black;
+    border-radius: 2px;
+    padding:5px 5px;
+    
+}
+.top0
+{
+    background-color: rgb(164, 223, 171);
+    font-size: 30px;
+}
+span{
+    color:rgb(77, 237, 77);
+}
+.card0{
+    background-color: bisque;
+    border:2px solid black;
+    gap:12px;
+}
+.incard0
+{
+    margin:12px 0;
+    font-size:27px;
+}
+.underline0
+{
+    text-decoration: underline;
+    color: rgb(56, 220, 56);
+    font-size: 30px;
+}

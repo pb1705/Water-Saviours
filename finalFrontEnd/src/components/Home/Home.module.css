@@ -1,0 +1,80 @@
+/* .div {
+  background-image: url("https://i.pinimg.com/564x/1c/e5/26/1ce526e52973b5d52f7b95ff254b9885.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 91vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: -moz-hidden-unscrollable;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.back {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.39) 15%,
+    rgba(0, 0, 0, 0.42) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+} */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cfgdb-d6777.appspot.com/o/background.png?alt=media&token=3f5613da-f596-427f-ba49-4ee7d48eaddb");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    opacity: 80%;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 25px;
+    margin-left: -100px;
+    border-radius: 10px;
+}
+
+
+
+.button {
+    color: #fbfcfd;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.content {
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.h1 {
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+
+.about{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 300px;
+}

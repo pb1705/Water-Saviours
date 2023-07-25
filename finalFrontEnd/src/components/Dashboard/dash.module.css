@@ -1,0 +1,23 @@
+.card {
+  background-color: white;
+  margin: 40px auto;
+  border-radius: 50px;
+  width: 80vw;
+  padding: 2% 3%;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: larger;
+}
+.card button {
+  background-color: white;
+  color: black;
+  margin-top: 15px;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.card button:hover {
+  background-color: black;
+  color: white;
+}
